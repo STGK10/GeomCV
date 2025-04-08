@@ -1,6 +1,6 @@
 # GeomCV
 A lightweight C/C++ computational geometry library and interactive Learning with visualizations.
-GeomCV designed for both developers and learners, as it provides clean implementations of classic geometric algorithms (like segment intersections, convex hulls, polygon simplification, etc.) with a built-in visual layer using OpenCV to explore and debug geometry interactively.
+GeomCV is designed for both developers and learners, as it provides clean implementations of classic geometric algorithms (like segment intersections, convex hulls, polygon simplification, etc.) with a built-in visual layer using OpenCV to explore and debug geometry interactively.
 
 ## ✨ Features
 
