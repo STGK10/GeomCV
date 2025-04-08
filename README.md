@@ -18,7 +18,7 @@ GeomCV designed for both developers and learners, as it provides clean implement
 
 ### 🛠️ Build
 ```bash
-git clone https://github.com/yourname/GeomCV.git
+git clone https://github.com/STGK10/GeomCV.git
 cd GeomCV
 mkdir build && cd build
 cmake ..
