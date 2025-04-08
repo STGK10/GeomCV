@@ -9,7 +9,37 @@ GeomCV designed for both developers and learners, as it provides clean implement
 - 📷 Process contours from images
 - 🎯 Easy to extend for academic or industrial applications
 
-## 📦 Build Instructions
+# Project Structure
+GeomCV/
+├── include/         # Headers for geometry + visualization
+├── src/             # C++ implementations
+├── demos/           # Interactive demos
+├── images/          # Sample images for contour processing
+├── CMakeLists.txt   # Build script
+└── README.md
+
+#Directory Structure
+GeomCV/
+├── include/
+│   ├── geomcv.hpp            # Master header
+│   ├── geometry_core.hpp     # Algorithms
+│   └── visualizer.hpp        # Drawing functions
+│
+├── src/
+│   ├── geometry_core.cpp
+│   └── visualizer.cpp
+│
+├── demos/
+│   ├── convex_hull_demo.cpp
+│   ├── intersect_segments_demo.cpp
+│   ├── polygon_simplify_demo.cpp
+│
+├── images/
+│   └── test_shapes.png
+│
+├── CMakeLists.txt
+└── README.md
+
 
 ### 🔧 Prerequisites
 - C++17 or newer
