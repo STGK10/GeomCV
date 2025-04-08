@@ -11,36 +11,28 @@ GeomCV designed for both developers and learners, as it provides clean implement
 
 
 
-### Project Structure
-GeomCV/
-├── include/         # Headers for geometry + visualization
-├── src/             # C++ implementations
-├── demos/           # Interactive demos
-├── images/          # Sample images for contour processing
-├── CMakeLists.txt   # Build script
-└── README.md
+---
 
-#### Directory Structure
-GeomCV/
-├── include/
-│   ├── geomcv.hpp            # Master header
-│   ├── geometry_core.hpp     # Algorithms
-│   └── visualizer.hpp        # Drawing functions
-│
-├── src/
-│   ├── geometry_core.cpp
-│   └── visualizer.cpp
-│
-├── demos/
-│   ├── convex_hull_demo.cpp
-│   ├── intersect_segments_demo.cpp
-│   ├── polygon_simplify_demo.cpp
-│
-├── images/
-│   └── test_shapes.png
-│
-├── CMakeLists.txt
-└── README.md
+### **Project Structure**  
+**GeomCV/**  
+├── 📂 **include/**           → Headers for geometry and visualization  
+│    ├── `geomcv.hpp`         → Master header for the project  
+│    ├── `geometry_core.hpp`  → Core geometry algorithms  
+│    └── `visualizer.hpp`     → Header for drawing functions  
+├── 📂 **src/**               → C++ source implementations  
+│    ├── `geometry_core.cpp`  → Core geometry algorithms  
+│    └── `visualizer.cpp`     → Functions for visualization  
+├── 📂 **demos/**             → Interactive demos for geometric operations  
+│    ├── `convex_hull_demo.cpp` → Demonstrates convex hull computation  
+│    ├── `intersect_segments_demo.cpp` → Segment intersection demo  
+│    └── `polygon_simplify_demo.cpp`  → Polygon simplification demo  
+├── 📂 **images/**            → Sample images for testing and processing  
+│    └── `test_shapes.png`    → Test image for contour processing  
+├── 📜 `CMakeLists.txt`       → Build script for project  
+└── 📜 `README.md`            → Project documentation
+
+---
+
 
 
 ##### 🔧 Prerequisites
