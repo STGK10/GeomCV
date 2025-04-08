@@ -9,7 +9,7 @@ GeomCV designed for both developers and learners, as it provides clean implement
 - 📷 Process contours from images
 - 🎯 Easy to extend for academic or industrial applications
 
-# Project Structure
+## Project Structure
 GeomCV/
 ├── include/         # Headers for geometry + visualization
 ├── src/             # C++ implementations
@@ -18,7 +18,7 @@ GeomCV/
 ├── CMakeLists.txt   # Build script
 └── README.md
 
-#Directory Structure
+##Directory Structure
 GeomCV/
 ├── include/
 │   ├── geomcv.hpp            # Master header
